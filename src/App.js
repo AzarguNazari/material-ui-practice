@@ -7,6 +7,10 @@ import FolderList from "./components/list/FolderList";
 import InteractiveList from "./components/list/InteractiveList";
 import SelectedItemList from "./components/list/SelectedItemList";
 import AlignItemsList from "./components/list/AlignItemsList";
+import SimpleModal from "./components/modal/SimpleModal";
+import TransitionsModal from "./components/modal/TransitionsModal";
+import SpringModal from "./components/modal/SpringModal";
+import ContainedButtons from "./components/button/ContainedButtons";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
             <InteractiveList />
             <SelectedItemList />
             <AlignItemsList />
+            <SimpleModal />
+            <TransitionsModal />
+            <SpringModal />
+            <ContainedButtons />
         </Container>
     </div>
   );
