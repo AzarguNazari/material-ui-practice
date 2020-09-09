@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: 10,
         padding: 10,
         marginTop: 10,
-
     },
     input: {
         display: 'none',
@@ -42,7 +41,7 @@ export default function ContainedButtons() {
             <Button variant="contained" color="primary" href="#contained-buttons">Link</Button>
             <Button variant="contained" color="primary" disableElevation>Disable elevation</Button>
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <Button>Default</Button>
             <Button color="primary">Primary</Button>
@@ -50,7 +49,7 @@ export default function ContainedButtons() {
             <Button disabled>Disabled</Button>
             <Button href="#text-buttons" color="primary">Link</Button>
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <Button variant="outlined">Default</Button>
             <Button variant="outlined" color="primary">Primary</Button>
@@ -58,7 +57,7 @@ export default function ContainedButtons() {
             <Button variant="outlined" disabled>Disabled</Button>
             <Button variant="outlined" color="primary" href="#outlined-buttons">Link</Button>
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <input
                 accept="image/*"
@@ -72,15 +71,15 @@ export default function ContainedButtons() {
                     Upload
                 </Button>
             </label>
-            <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />
+            <input accept="image/*" className={classes.input} id="icon-button-file" type="file"/>
             <label htmlFor="icon-button-file">
                 <IconButton color="primary" aria-label="upload picture" component="span">
-                    <PhotoCamera />
+                    <PhotoCamera/>
                 </IconButton>
             </label>
 
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <div>
                 <Button size="small" className={classes.margin}>
@@ -117,26 +116,26 @@ export default function ContainedButtons() {
             </div>
             <div>
                 <IconButton aria-label="delete" className={classes.margin} size="small">
-                    <ArrowDownwardIcon fontSize="inherit" />
+                    <ArrowDownwardIcon fontSize="inherit"/>
                 </IconButton>
                 <IconButton aria-label="delete" className={classes.margin}>
-                    <DeleteIcon fontSize="small" />
+                    <DeleteIcon fontSize="small"/>
                 </IconButton>
                 <IconButton aria-label="delete" className={classes.margin}>
-                    <DeleteIcon />
+                    <DeleteIcon/>
                 </IconButton>
                 <IconButton aria-label="delete" className={classes.margin}>
-                    <DeleteIcon fontSize="large" />
+                    <DeleteIcon fontSize="large"/>
                 </IconButton>
             </div>
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <Button
                 variant="contained"
                 color="secondary"
                 className={classes.button}
-                startIcon={<DeleteIcon />}
+                startIcon={<DeleteIcon/>}
             >
                 Delete
             </Button>
@@ -153,7 +152,7 @@ export default function ContainedButtons() {
                 variant="contained"
                 color="default"
                 className={classes.button}
-                startIcon={<CloudUploadIcon />}
+                startIcon={<CloudUploadIcon/>}
             >
                 Upload
             </Button>
@@ -162,7 +161,7 @@ export default function ContainedButtons() {
                 disabled
                 color="secondary"
                 className={classes.button}
-                startIcon={<KeyboardVoiceIcon />}
+                startIcon={<KeyboardVoiceIcon/>}
             >
                 Talk
             </Button>
@@ -171,7 +170,7 @@ export default function ContainedButtons() {
                 color="primary"
                 size="small"
                 className={classes.button}
-                startIcon={<SaveIcon />}
+                startIcon={<SaveIcon/>}
             >
                 Save
             </Button>
@@ -180,27 +179,27 @@ export default function ContainedButtons() {
                 color="primary"
                 size="large"
                 className={classes.button}
-                startIcon={<SaveIcon />}
+                startIcon={<SaveIcon/>}
             >
                 Save
             </Button>
 
-            <Divider variant="middle" />
+            <Divider variant="middle"/>
 
             <IconButton aria-label="delete">
-                <DeleteIcon />
+                <DeleteIcon/>
             </IconButton>
             <IconButton aria-label="delete" disabled color="primary">
-                <DeleteIcon />
+                <DeleteIcon/>
             </IconButton>
             <IconButton color="secondary" aria-label="add an alarm">
-                <AlarmIcon />
+                <AlarmIcon/>
             </IconButton>
             <IconButton color="primary" aria-label="add to shopping cart">
-                <AddShoppingCartIcon />
+                <AddShoppingCartIcon/>
             </IconButton>
 
-            <Divider aria-label="delete" />
+            <Divider aria-label="delete"/>
 
             {/*<ColorButton variant="contained" color="primary" className={classes.margin}>*/}
             {/*    Custom CSS*/}

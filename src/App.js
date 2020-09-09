@@ -11,21 +11,29 @@ import SimpleModal from "./components/modal/SimpleModal";
 import TransitionsModal from "./components/modal/TransitionsModal";
 import SpringModal from "./components/modal/SpringModal";
 import ContainedButtons from "./components/button/ContainedButtons";
+import GroupButton from "./components/button/GrouptButton";
+import Checkboxes from "./components/form/Checkboxes";
+import DatePicker from "./components/date/DatePicker";
+import RadioButtonsGroup from "./components/form/RadioButtonsGroup";
 
 function App() {
   return (
     <div className="App">
         <Container maxWidth="sm">
-            <SimpleList />
-            <NestedList />
-            <FolderList />
-            <InteractiveList />
-            <SelectedItemList />
-            <AlignItemsList />
-            <SimpleModal />
-            <TransitionsModal />
-            <SpringModal />
-            <ContainedButtons />
+            {/*<SimpleList />*/}
+            {/*<NestedList />*/}
+            {/*<FolderList />*/}
+            {/*<InteractiveList />*/}
+            {/*<SelectedItemList />*/}
+            {/*<AlignItemsList />*/}
+            {/*<SimpleModal />*/}
+            {/*<TransitionsModal />*/}
+            {/*<SpringModal />*/}
+            {/*<ContainedButtons />*/}
+            {/*<GroupButton />*/}
+            {/*<Checkboxes />*/}
+            {/*<DatePicker />*/}
+            <RadioButtonsGroup />
         </Container>
     </div>
   );
