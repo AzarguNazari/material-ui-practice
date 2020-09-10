@@ -15,6 +15,7 @@ import GroupButton from "./components/button/GrouptButton";
 import Checkboxes from "./components/form/Checkboxes";
 import DatePicker from "./components/date/DatePicker";
 import RadioButtonsGroup from "./components/form/RadioButtonsGroup";
+import SimpleSelect from "./components/date/SimpleSelect";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
             {/*<GroupButton />*/}
             {/*<Checkboxes />*/}
             {/*<DatePicker />*/}
-            <RadioButtonsGroup />
+            {/*<RadioButtonsGroup />*/}
+            <SimpleSelect />
         </Container>
     </div>
   );
